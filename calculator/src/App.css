@@ -113,6 +113,19 @@ input {
     color: red;
 }
 
+.suma:hover,
+.resta:hover,
+.multiplicacion:hover,
+.division:hover,
+.modulo:hover,
+.parentesis:hover {
+    background-color: red;
+}
+
+.letra-c:hover {
+    background-color: green;
+}
+
 .second-row .numero7,
 .second-row .numero8,
 .second-row .numero9,
@@ -128,7 +141,23 @@ input {
 .fifth-row .igual {
     color: white;
     background-color: rgb(83, 82, 82);
+}
 
+.second-row .numero7:hover,
+.second-row .numero8:hover,
+.second-row .numero9:hover,
+.third-row .numero6:hover,
+.third-row .numero5:hover,
+.third-row .numero4:hover,
+.fourth-row .numero3:hover,
+.fourth-row .numero2:hover,
+.fourth-row .numero1:hover,
+.fifth-row .mas-menos:hover,
+.fifth-row .numero0:hover,
+.fifth-row .punto:hover,
+.fifth-row .igual:hover {
+    color: white;
+    background-color: red;
 }
 
 .fifth-row .igual {
