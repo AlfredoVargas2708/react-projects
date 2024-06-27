@@ -1,42 +1,136 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main {
+    margin: 100px auto;
+    text-align: center;
+    display: grid;
+    padding: 50px 0;
+    border: 1px solid;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+    color: brown;
+    background-color: gold;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    margin: 10px auto;
+    height: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    text-align: right;
+    font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px auto;
 }
 
-.card {
-  padding: 2em;
+.second-row {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px auto;
 }
 
-.read-the-docs {
-  color: #888;
+.third-row {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.fifth-row {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.first-row button {
+    background-color: gray;
+    border-radius: 10px;
+    color: green;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+}
+
+.second-row button {
+    background-color: gray;
+    border-radius: 20px;
+    color: green;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+}
+
+.third-row button {
+    background-color: gray;
+    border-radius: 10px;
+    color: green;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+}
+
+.fourth-row button {
+    background-color: gray;
+    border-radius: 20px;
+    color: green;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+}
+
+.fifth-row button {
+    background-color: gray;
+    border-radius: 10px;
+    color: green;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+}
+
+.first-row .letra-c {
+    color: red;
+}
+
+.second-row .numero7,
+.second-row .numero8,
+.second-row .numero9,
+.third-row .numero6,
+.third-row .numero5,
+.third-row .numero4,
+.fourth-row .numero3,
+.fourth-row .numero2,
+.fourth-row .numero1,
+.fifth-row .mas-menos,
+.fifth-row .numero0,
+.fifth-row .punto,
+.fifth-row .igual {
+    color: white;
+    background-color: rgb(83, 82, 82);
+
+}
+
+.fifth-row .igual {
+    background-color: green;
 }
